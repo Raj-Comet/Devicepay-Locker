@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">EMIShield Locker</string>
+    
+    <!-- Admin Receiver -->
+    <string name="admin_receiver_description">Device management for EMI protection</string>
+    
+    <!-- Lock Screen -->
+    <string name="lock_title">EMI Payment Pending</string>
+    <string name="lock_message">Your device is locked due to pending EMI payment. Please pay your dues to continue.</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="due_days">Due in: %d days</string>
+    
+    <!-- Service -->
+    <string name="service_notification_title">EMI Protection Active</string>
+    <string name="service_notification_message">Your device is protected with EMI Shield</string>
+    
+    <!-- Dialog Messages -->
+    <string name="device_locked">Device is locked</string>
+    <string name="device_unlocked">Device is unlocked</string>
+    <string name="api_error">API Error: %s</string>
+    <string name="checking_emi_status">Checking EMI status...</string>
+
+    <!-- Colors -->
+    <color name="primary">#E74C3C</color>
+    <color name="primary_dark">#C0392B</color>
+    <color name="accent">#3498DB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#2C3E50</color>
+    <color name="text_secondary">#7F8C8D</color>
+    <color name="error">#E74C3C</color>
+    <color name="success">#27AE60</color>
+</resources>

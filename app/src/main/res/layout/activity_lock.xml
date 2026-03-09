@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/ivLockIcon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:contentDescription="@string/lock_title"
+        android:scaleType="centerInside"
+        android:src="?android:attr/ic_lock_lock"
+        android:tint="@color/white"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:id="@+id/tvLockTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lock_title"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/tvLockMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lock_message"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:id="@+id/tvDueDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/due_days"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnPayNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pay_now"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/accent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnContactSupport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_support"
+        android:textSize="16sp"
+        android:textColor="@color/accent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/white" />
+
+</LinearLayout>
